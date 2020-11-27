@@ -1,0 +1,245 @@
+body{
+        font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width:1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.head_inner{    
+ text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    display:inline-block;
+    vertical-align: top;
+    position: relative;
+        font-family: 'Montserrat', sans-serif;
+
+}
+.head_inner:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    display: none;
+    background-color: black;
+        font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.head_inner:hover:after{
+    display: block;
+}
+
+
+.main{
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+        font-family: 'Montserrat', sans-serif;
+
+}
+.main_in{
+    width: 450px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 30px;
+    color: rgb(102,102,102);
+        font-family: 'Montserrat', sans-serif;
+
+}
+.text{
+    color: rgb(102,102,102);
+        font-family: 'Montserrat', sans-serif;
+
+}
+.out_text{
+    background-color: rgb(209,216,218);
+    margin-top: 50px;
+        padding-top: 30px;
+        font-family: 'Montserrat', sans-serif;
+
+
+}
+.in_text{
+   max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+
+}
+#txt1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 25px;
+}
+#txt2{
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5px;
+}
+
+button{
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    border-radius: 0;
+    height: 30px;
+
+}
+#b1{
+      cursor: pointer;
+     border: 1px solid black;
+  border-radius: 1px;
+    background-color: rgb(209,216,218);
+    color: black;   
+}
+#txt3{
+     margin-top: 30px;
+    width: 440px;
+}
+#txt4{
+margin-top: 20px;
+    width: 150px;
+font-size: 12px;
+}
+#txt5{
+    margin-left: 250px;
+    margin-top: -90px;
+    width: 150px;
+    font-size: 12px;
+}
+#txt6{
+    margin-top: 20px;    
+    width: 150px;
+        font-size: 12px;
+    
+}
+.texts{
+    display:flex;
+    
+}
+#txt7{
+   margin-top: 20px;
+    width: 150px;
+    font-size: 12px;
+    margin-left: 100px;
+    
+    
+}
+.texts1{
+    display: flex;
+}
+img{
+ margin-left: 815px;
+margin-top: -600px;
+    
+}
+.but{
+    display: inline;
+    margin-top: 10px;
+}
+#buy{
+    margin-left: 0px;
+    margin-top: -200px;
+    border: none;
+    cursor: pointer;
+}
+.main_text{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+#fn{
+        font-size: 24px;
+    margin-left: 10px;
+}
+#peek{
+    margin-top:10px; 
+    width: 440px;
+    
+}
+#blog{
+    color: black;
+}
+.colorblack{
+    color: black;
+
+}
+.minitxt{
+    width: 440px;
+    margin-top: 30px;
+    font-size: 11px;
+}
+.mtxt2{
+    margin-top: 30px;
+}
+.mtxt3{margin-top: 30px;}
+.stock{
+    margin-left: 700px;
+    margin-top: -347px;
+}
+#stoc{
+    font-size: 24px;
+}
+#stoc2{
+    width: 150px;
+}
+    font-size: 17px;
+    margin-top: 10px;
+}
+#wq{
+    color: black;
+}
+.dropbtn {
+  background-color: gray;
+  color: black;
+  padding: 10px;
+  font-size: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+    
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: gray;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-left: 910px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px gray;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+#az{
+    padding-top: 650px;
+    padding-left: 75px;
+}
