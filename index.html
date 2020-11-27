@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+ <title>Offscreen magazine</title>
+    
+ <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    </head>
+<body>
+  <header>
+    <div class=container>
+     <h1 href="#">Offscreen</h1>
+        <div class="head">
+     <a href="#" class="head_inner">Magazine</a>
+     <a href="#" class="head_inner">About</a>
+     <a href="#" class="head_inner">Blog</a>
+     <button href="#">Buy/Subscribe</button>
+    </div>
+    </div>
+  </header>
+    <hr>
+    
+    <div class="main">
+    <div class="main_in"> Welcome to Offscreen, an independent<a href="#" class="text"> print magazine </a> with a thoughtful, human-centred take on technology and the web. Discover purpose-driven people, products, and ideas that shape the future. <a href="#" class="text">More about us.</a> </div>
+    </div>
+    <div class="out_text">
+        
+    <div class="in_text">
+        <div id="txt1">Magazine</div>
+        <div id="txt2">Fresh Thinking on Tech, in Print</div>
+        <div id="txt3">Published three times per year in beautiful print, Offscreen Magazine is a thoughtful deep dive into the entrepreneurial spirit and future vision of people working with technology.</div>
+        
+        <div class="texts">
+        <div id="txt4"> In-depth interviews <br/>
+Intimate conversations with entrepreneurs, designers, thinkers, activists, researchers, and more.
+ <div id="txt5">
+New accessories and projects<br/>
+A showcase of compelling, impactful gear, ideas, and projects to watch. 
+     </div>
+      </div>
+    </div>
+    <div class="texts1">
+     <div id="txt6">
+     Introspective essays<br/> Food for thought through reflective, personal stories on life and work in a connected world.
+     </div>
+            <div id="txt7">Inspiration and advice<br/>
+Diverse opinions and insights by technologists from around the world.           
+            </div>
+     </div>
+       <div class="but">
+                <br/><button id="b1">Explore latest time issue</button>
+                </div>
+        <button id="buy">Buy/Subscribe now</button>
+        </div>
+<div class="image">
+        <img src="cover.jpg" id="image1" width="400px" >
+        </div>
+         </div>  
+    <div class="main_text">
+    <div id="fn">Field notes</div>
+        <div id="peek">Peek behind the curtain: we love sharing our process and thoughts on indie publishing through <a href="#" id="blog">our blog.</a></div>
+       
+        <div class="minitxt">
+        <div class="mtxt1"> <a class="colorblack" href="#">Offscreen is taking a break</a> -> <br/>
+Seven years ago, when I first thought about ‘a print magazine for pixel people; I could have never imagined that today I'd still be answering emails from readers or preparing orders for fulfilment. What starte...
+</div>
+        <div class="mtxt2"><a class="colorblack" href="#">Letter to the editor</a> -> <br/>
+Hi Kai, I live in Richmond, Virginia, USA which is about 1.5 hrs drive south of Washington D.C. There's a wide range of stereotypes about American's but I'm probably in line with many of the ...s
+</div>
+            <div class="mtxt3"><a class="colorblack" href="#">Issue 20 is here!</a> ->
+It's been seven years since I started working on the first issue of Offscreen. And today I'm happy to announce the release of issue 20! To celebrate, issue 20 is printed with a special metallic Pantone colour...
+</div>
+            <div class="stock">
+        <div id="stoc">Stockists</div>
+        <div id="stoc2"><a href="#" id="wq">Buy or subscribe</a> online or grab a copy from one of our 108 global stockists.</div>
+    </div>
+</div>
+        </div>
+    
+    <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Pick a country...</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#home">Atyrau</a>
+    <a href="#about">Almaty</a>
+    <a href="#contact">Astana</a>
+  </div>
+</div>
+            <img src="scr.jpg" width="180px" id="az">
+    
+    <script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+</script>
+    
+    </body>
+</html>
