@@ -1,95 +1,114 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8"/>
+<meta charset="UTF-8"/>
  <title>Offscreen magazine</title>
-    
- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    </head>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=Your API key&lang=en_US" type="text/javascript"></script>
+
+</head>
 <body>
-  <header>
+      <div class="nav">
+      <label for="toggle">&#9776;</label>
+    </div>
+    <input type="checkbox" name="" id="toggle">
+    <header>
     <div class=container>
-     <h1 href="#">Offscreen</h1>
-        <div class="head">
-     <a href="#" class="head_inner">Magazine</a>
-     <a href="#" class="head_inner">About</a>
-     <a href="#" class="head_inner">Blog</a>
-     <button href="#">Buy/Subscribe</button>
+    <h1 ><a href="#" id="heading">Offscreen</a></h1>
+    <div class="head">
+    <div class="head_inner"><a href="#" class="black">Magazine</a></div>
+    <div class="head_inner"><a class="black" href="#">About</a></div>
+    <div class="head_inner"><a href="#" class="black">Blog</a></div>
+    <button href="#" class="head_inner" id="button">Buy/Subscribe</button>
     </div>
     </div>
-  </header>
+    </header>
     <hr>
-    
     <div class="main">
     <div class="main_in"> Welcome to Offscreen, an independent<a href="#" class="text"> print magazine </a> with a thoughtful, human-centred take on technology and the web. Discover purpose-driven people, products, and ideas that shape the future. <a href="#" class="text">More about us.</a> </div>
     </div>
-    <div class="out_text">
-        
-    <div class="in_text">
-        <div id="txt1">Magazine</div>
-        <div id="txt2">Fresh Thinking on Tech, in Print</div>
-        <div id="txt3">Published three times per year in beautiful print, Offscreen Magazine is a thoughtful deep dive into the entrepreneurial spirit and future vision of people working with technology.</div>
-        
-        <div class="texts">
-        <div id="txt4"> In-depth interviews <br/>
-Intimate conversations with entrepreneurs, designers, thinkers, activists, researchers, and more.
- <div id="txt5">
-New accessories and projects<br/>
-A showcase of compelling, impactful gear, ideas, and projects to watch. 
-     </div>
-      </div>
+    
+    <div class="main_">
+    <div class="container_top">
+    <div class="container_main">
+    <div class="text_magazine">
+    <div class="container_magazine">
+                        <h1 id="magazinee">Magazine</h1>
+                        <h2>Fresh Thinking on Tech, in Print</h2>
+                        <h3>Published three times per year in beautiful print, Offscreen Magazine is a thoughtful deep dive into the entrepreneurial spirit and future vision of people working with technology.</h3>
+    <div class="boxes">
+    <div class="box1">
+                                <p>In-depth interviews<br>
+                                    Intimate conversations with entrepreneurs, designers, thinkers, activists, researchers, and more. </p>
     </div>
-    <div class="texts1">
-     <div id="txt6">
-     Introspective essays<br/> Food for thought through reflective, personal stories on life and work in a connected world.
-     </div>
-            <div id="txt7">Inspiration and advice<br/>
-Diverse opinions and insights by technologists from around the world.           
-            </div>
-     </div>
-       <div class="but">
-                <br/><button id="b1">Explore latest time issue</button>
-                </div>
-        <button id="buy">Buy/Subscribe now</button>
-        </div>
-<div class="image">
-        <img src="cover.jpg" id="image1" width="400px" >
-        </div>
-         </div>  
+    <div class="box2">
+                                <p>
+                                    New accessories and projects
+                                    A showcase of compelling, impactful gear, ideas, and projects to watch. 
+                                </p>
+    </div>
+    <div class="box3">
+    <p>
+        Introspective essays
+        Food for thought through reflective, personal stories on life and work in a connected world 
+    </p>
+    </div>
+    <div class="box4">
+    <p>Inspiration and advice Diverse opinions and insights by technologists from around the world. 
+    </p>
+    </div>
+    </div>
+    <div class="btn">
+    <button id="b1">Explore latest time issue</button>
+    <button id="buy">Buy/Subscribe now</button>
+    </div>
+    </div>
+    </div>
+    <div class="image">
+    <img src="cover.jpg">   
+    </div>
+    </div>
+    </div>
+    </div>
+    <br>
+    <br>
     <div class="main_text">
     <div id="fn">Field notes</div>
-        <div id="peek">Peek behind the curtain: we love sharing our process and thoughts on indie publishing through <a href="#" id="blog">our blog.</a></div>
+            
+    <div id="peek">Peek behind the curtain: we love sharing our process and thoughts on indie publishing through <a href="#" id="blog">our blog.</a></div>
        
-        <div class="minitxt">
-        <div class="mtxt1"> <a class="colorblack" href="#">Offscreen is taking a break</a> -> <br/>
+    <div class="minitxt">
+    <div class="mtxt1"> <a class="colorblack" href="#">Offscreen is taking a break</a> -> <br/>
 Seven years ago, when I first thought about ‘a print magazine for pixel people; I could have never imagined that today I'd still be answering emails from readers or preparing orders for fulfilment. What starte...
-</div>
-        <div class="mtxt2"><a class="colorblack" href="#">Letter to the editor</a> -> <br/>
-Hi Kai, I live in Richmond, Virginia, USA which is about 1.5 hrs drive south of Washington D.C. There's a wide range of stereotypes about American's but I'm probably in line with many of the ...s
-</div>
-            <div class="mtxt3"><a class="colorblack" href="#">Issue 20 is here!</a> ->
-It's been seven years since I started working on the first issue of Offscreen. And today I'm happy to announce the release of issue 20! To celebrate, issue 20 is printed with a special metallic Pantone colour...
-</div>
-            <div class="stock">
-        <div id="stoc">Stockists</div>
-        <div id="stoc2"><a href="#" id="wq">Buy or subscribe</a> online or grab a copy from one of our 108 global stockists.</div>
     </div>
-</div>
-        </div>
-    
-    <div class="dropdown">
+    <div class="mtxt2"><a class="colorblack" href="#">Letter to the editor</a> -> <br/>
+Hi Kai, I live in Richmond, Virginia, USA which is about 1.5 hrs drive south of Washington D.C. There's a wide range of stereotypes about American's but I'm probably in line with many of the ...s
+    </div>
+    <div class="mtxt3"><a class="colorblack" href="#">Issue 20 is here!</a> ->
+It's been seven years since I started working on the first issue of Offscreen. And today I'm happy to announce the release of issue 20! To celebrate, issue 20 is printed with a special metallic Pantone colour...
+    </div>
+    </div>
+    </div>
+     <div class="stock">
+    <div id="stoc">Stockists</div>
+    <div id="stoc2"><a href="#" id="wq">Buy or subscribe</a> online or grab a copy from one of our 108 global stockists.</div>
+          <div class="dropdown">
   <button onclick="myFunction()" class="dropbtn">Pick a country...</button>
   <div id="myDropdown" class="dropdown-content">
     <a href="#home">Atyrau</a>
     <a href="#about">Almaty</a>
     <a href="#contact">Astana</a>
-  </div>
-</div>
-            <img src="scr.jpg" width="180px" id="az">
+    </div>
+    <img src="scr.jpg" width="180px" id="az">
+    </div>
+         
+    </div>
     
+    <div id="map" style="width: 400px; height: 300px"></div>
     
+
     <script>
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
@@ -98,16 +117,152 @@ window.onclick = function(event) {
   if (!event.target.matches('.dropbtn')) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
+    for (i = 0; i <script dropdowns.length; i++) {
+    var openDropdown = dropdowns[i];
+    if (openDropdown.classList.contains('show')) {
         openDropdown.classList.remove('show');
       }
     }
   }
 }
+    </script>
+    <script type="text/javascript">
+     ymaps.ready(init);
 
-</script>
+function init() {
+    var myMap = new ymaps.Map("map", {
+            center: [55.76, 37.64],
+            zoom: 10
+        }, {
+            searchControlProvider: 'yandex#search'
+        }),
+
+        myGeoObject = new ymaps.GeoObject({
+            preset: 'islands#blackStretchyIcon',
+            draggable: true
+        }),
+        myPieChart = new ymaps.Placemark([
+            55.847, 37.6
+        ], {
+            data: [
+                {weight: 8, color: '#0E4779'},
+                {weight: 6, color: '#1E98FF'},
+                {weight: 4, color: '#82CDFF'}
+            ],
+            iconCaption: "Диаграмма"
+        });
+
+    myMap.geoObjects
+        .add(myGeoObject)
+        .add(myPieChart)
+        .add(new ymaps.Placemark([55.684758, 37.738521], {
+            balloonContent: 'цвет <strong>воды пляжа бонди</strong>'
+        }, {
+            preset: 'islands#icon',
+            iconColor: '#0095b6'
+        }))
+        .add(new ymaps.Placemark([55.833436, 37.715175], {
+            balloonContent: '<strong>серобуромалиновый</strong> цвет'
+        }, {
+            preset: 'islands#dotIcon',
+            iconColor: '#735184'
+        }))
+        .add(new ymaps.Placemark([55.687086, 37.529789], {
+            balloonContent: 'цвет <strong>нёба</strong>'
+        }, {
+            preset: 'islands#circleIcon',
+            iconColor: '#3caa3c'
+        }))
+        .add(new ymaps.Placemark([55.782392, 37.614924], {
+            balloonContent: 'цвет <strong>неожиданности</strong>'
+        }, {
+            preset: 'islands#circleDotIcon',
+            iconColor: 'yellow'
+        }))
+        .add(new ymaps.Placemark([55.642063, 37.656123], {
+            balloonContent: 'цвет <strong>красный</strong>'
+        }, {
+            preset: 'islands#redSportIcon'
+        }))
+        .add(new ymaps.Placemark([55.826479, 37.487208], {
+            balloonContent: 'цвет <strong>фэйсбука</strong>'
+        }, {
+            preset: 'islands#governmentCircleIcon',
+            iconColor: '#3b5998'
+        }))
+        .add(new ymaps.Placemark([55.694843, 37.435023], {
+            balloonContent: 'цвет <strong>зеленый</strong>',
+            iconCaption: 'Очень длиннный текст'
+        }, {
+            preset: 'islands#greenDotIconWithCaption'
+        }))
+        .add(new ymaps.Placemark([55.790139, 37.814052], {
+            balloonContent: 'цвет <strong>голубой</strong>',
+            iconCaption: 'Очень длиннный, но интересный текст'
+        }, {
+            preset: 'islands#blueCircleDotIconWithCaption',
+            iconCaptionMaxWidth: '50'
+        }));
+    var myGeoObject = new ymaps.GeoObject({
+        geometry: {
+            type: "Polygon",
+            coordinates: [
+                
+                [
+                    [55.75, 37.80],
+                    [55.80, 37.90],
+                    [55.75, 38.00],
+                    [55.70, 38.00],
+                    [55.70, 37.80]
+                ],
+                [
+                    [55.75, 37.82],
+                    [55.75, 37.98],
+                    [55.65, 37.90]
+                ]
+            ],
+            fillRule: "nonZero"
+        },
+        properties:{
+            balloonContent: "Многоугольник"
+        }
+    }, {
+        
+        
+        fillColor: '#00FF00',
+       
+        strokeColor: '#0000FF',
+        opacity: 0.5,
+        strokeWidth: 5,
+        strokeStyle: 'shortdash'
+    });
+
+    myMap.geoObjects.add(myGeoObject);
+
+    var myPolygon = new ymaps.Polygon([
+        [
+            [55.75, 37.50],
+            [55.80, 37.60],
+            [55.75, 37.70],
+            [55.70, 37.70],
+            [55.70, 37.50]
+        ],
+        [
+            [55.75, 37.52],
+            [55.75, 37.68],
+            [55.65, 37.60]
+        ]
+    ], {
+        hintContent: "Многоугольник"
+    }, {
+        fillColor: '#00FF0088',
+        strokeWidth: 5
+    });
+
+    myMap.geoObjects.add(myPolygon);
+}
+
+  </script>
     
-    </body>
+</body>
 </html>

@@ -1,6 +1,3 @@
-body{
-        font-family: 'Montserrat', sans-serif;
-}
 .container{
     width:1000px;
     margin: 0 auto;
@@ -8,15 +5,23 @@ body{
     justify-content: space-between;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
+    }
+.head{
+    display: flex;
 }
-
-.head_inner{    
- text-decoration: none;
+.head_inner{
+    margin-left: 15px;
+    margin-top: 7px;
+    
+    
+}
+.black{
     color: black;
-    margin: 0 10px;
-    display:inline-block;
-    vertical-align: top;
-    position: relative;
+    text-decoration: none;
+}
+#heading{
+    color: black;
+    text-decoration: none;
         font-family: 'Montserrat', sans-serif;
 
 }
@@ -30,13 +35,18 @@ body{
         font-family: 'Montserrat', sans-serif;
 
 }
-
-
 .head_inner:hover:after{
     display: block;
 }
 
 
+#button{
+      background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    border-radius: 0;
+
+}
 .main{
     max-width: 1000px;
     margin: 0 auto;
@@ -50,111 +60,19 @@ body{
     font-size: 18px;
     margin-top: 30px;
     color: rgb(102,102,102);
-        font-family: 'Montserrat', sans-serif;
-
-}
+    font-family: 'Montserrat', sans-serif;}
 .text{
     color: rgb(102,102,102);
-        font-family: 'Montserrat', sans-serif;
-
-}
-.out_text{
-    background-color: rgb(209,216,218);
-    margin-top: 50px;
-        padding-top: 30px;
-        font-family: 'Montserrat', sans-serif;
-
-
-}
-.in_text{
-   max-width: 1000px;
-    margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
-
-}
-#txt1{
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-
-    font-size: 25px;
-}
-#txt2{
-    font-size: 22px;
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 5px;
+    
+    
 }
 
-button{
-    background-color: black;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    border-radius: 0;
-    height: 30px;
-
-}
-#b1{
-      cursor: pointer;
-     border: 1px solid black;
-  border-radius: 1px;
-    background-color: rgb(209,216,218);
-    color: black;   
-}
-#txt3{
-     margin-top: 30px;
-    width: 440px;
-}
-#txt4{
-margin-top: 20px;
-    width: 150px;
-font-size: 12px;
-}
-#txt5{
-    margin-left: 250px;
-    margin-top: -90px;
-    width: 150px;
-    font-size: 12px;
-}
-#txt6{
-    margin-top: 20px;    
-    width: 150px;
-        font-size: 12px;
-    
-}
-.texts{
-    display:flex;
-    
-}
-#txt7{
-   margin-top: 20px;
-    width: 150px;
-    font-size: 12px;
-    margin-left: 100px;
-    
-    
-}
-.texts1{
-    display: flex;
-}
-img{
- margin-left: 815px;
-margin-top: -600px;
-    
-}
-.but{
-    display: inline;
-    margin-top: 10px;
-}
-#buy{
-    margin-left: 0px;
-    margin-top: -200px;
-    border: none;
-    cursor: pointer;
-}
 .main_text{
     max-width: 1000px;
     margin: 0 auto;
     margin-top: 20px;
-    
+    font-family: 'Montserrat', sans-serif;
 }
 #fn{
         font-size: 24px;
@@ -184,24 +102,30 @@ margin-top: -600px;
 .stock{
     margin-left: 700px;
     margin-top: -347px;
+     font-family: 'Montserrat', sans-serif;
+
+    
 }
 #stoc{
     font-size: 24px;
+    margin-left: 230px;
 }
 #stoc2{
     width: 150px;
+    margin-left: 220px;
 }
     font-size: 17px;
     margin-top: 10px;
 }
 #wq{
-    color: black;
+    color: blue;
 }
 .dropbtn {
   background-color: gray;
   color: black;
   padding: 10px;
-  font-size: 10px;
+  font-size: 15px;
+
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -216,7 +140,9 @@ margin-top: -600px;
 .dropdown {
   position: relative;
   display: inline-block;
-  padding-left: 910px;
+  padding-left: 920px;
+    margin-top: 10px;
+    margin-left: -700px;
 }
 
 .dropdown-content {
@@ -240,6 +166,158 @@ margin-top: -600px;
 
 .show {display: block;}
 #az{
-    padding-top: 650px;
-    padding-left: 75px;
+    display: flex;
+    padding-top: 50px;
+/*    padding-left: 910px;*/
+    flex-wrap: wrap;
+}
+
+.main_{
+ font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+}
+.container_top{
+    height: 500px;
+    background-color: rgb(209,216,218);
+    width: 100%;
+}.text_magazine{
+    width: 50%;
+}.container_magazine{
+    width: 76%;
+    align-items: center;
+    margin: 0 auto;
+}.container_magazine h1{
+    color: white;
+}
+.container_main{
+    display: flex ;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}.image{
+    margin: 0 auto;
+
+    width: 50%;
+}.image img{
+    margin-top: -50px;
+    width: 400px;
+    margin-left: 105px;
+}.box1,.box2,.box3,.box4{
+    width: 40%;
+    height: 25%;
+}.box1,.box2,.box3,.box4 p{
+    font-weight: 600;
+    font-size: 12px;
+}
+.box1, .box3{
+    margin-right: 50px;
+}
+h2{
+    margin-bottom: 0px;
+    margin-top: -10px;
+}
+.boxes{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#b1 {
+    cursor: pointer;
+     border: 1px solid black;
+  border-radius: 1px;
+    background-color: rgb(209,216,218);
+    color: black; 
+    font-family: 'Montserrat', sans-serif;
+    height: 30px;
+}
+#buy{
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    border-radius: 0;
+    height: 30px;
+}
+#magazinee{
+    font-size: 25px;
+}
+h2{
+    font-size: 22px;
+}
+#toggle{
+    display: none;
+}
+label{
+    margin: 8px 0 0 20px;
+    font-size: 30px;
+    display: flex;
+        cursor: pointer;
+
+}
+.nav{display: none;}
+#map{
+margin-left: 225px;}
+
+@media(max-width:700px){
+    .image img{
+        margin-top:  50px;
+        width: 180%;
+        margin-left: -75px;
+    }.text_magazine{
+        width: 100%;
+    }.container_top{
+        background-color:#D1D8DA; 
+        margin-bottom: -150px; 
+        height: 600px;
+    }.box1, .box3{
+        margin-right: 0px;
+    }.box1,.box2,.box3,.box4{
+        width: 50%;
+    }
+    .main_text{
+        margin-top: 700px;
+        margin-left: 45px;
+    }
+    .main_in{
+        font-size: 15px;
+        width: 400px;
+        margin-left: 60px;
+        }
+    .stock{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 100px;
+    }
+    #stoc2{
+        margin-left: -550px;
+    }
+    #stoc{
+        margin-left: -550px;
+    }
+    .dropdown{
+        margin-left: -1470px;
+    }
+    .head{
+    display: block; 
+    margin-right: 1200px;
+        text-align: center;
+        font-size: 10px;
+    }
+    .head_inner{
+        border-top: 1px solid gray;
+    }
+    
+    .head_inner:after{
+    display: none;
+
+}
+.head_inner:hover:after{
+    display: none;
+}
+    #toggle:checked + .head{
+        display: none;
+    }
+    .nav{
+        display: flex
+    }
 }
